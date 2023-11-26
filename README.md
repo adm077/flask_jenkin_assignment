@@ -46,8 +46,8 @@ I have created a Job under Jenkins
      - Deploy: If tests pass, deploy the application to a staging environment.
 
 #Console Output
-
-''' Started by user Israrul Haque
+```
+Started by user Israrul Haque
 Running as SYSTEM
 Building in workspace /var/lib/jenkins/workspace/flask_assignment
 The recommended git tool is: NONE
@@ -83,7 +83,7 @@ Requirement already satisfied: Werkzeug>=3.0.0 in /var/lib/jenkins/.local/lib/py
 Requirement already satisfied: MarkupSafe>=2.0 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from Jinja2>=3.1.2->flask->-r requirements.txt (line 1)) (2.1.3)
 + python3 app.py
 Finished: SUCCESS
-
+```
 4. Triggers:
 
    - Configure the pipeline to trigger a new build whenever changes are pushed to the main branch of the repository.
