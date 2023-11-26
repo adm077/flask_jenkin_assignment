@@ -117,6 +117,11 @@ Deliverables:
 
 - Screenshots of the Jenkins pipeline execution.
 
+The web app is up & running.
+![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/faea6507-f80f-4bdd-aa8d-489ebc1811e6)
+
+
+
 
 #2. GitHub Actions CI/CD Pipeline Flask App
 
