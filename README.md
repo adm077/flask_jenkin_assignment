@@ -81,7 +81,7 @@ Requirement already satisfied: itsdangerous>=2.1.2 in /var/lib/jenkins/.local/li
 Requirement already satisfied: Werkzeug>=3.0.0 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from flask->-r requirements.txt (line 1)) (3.0.1)
 Requirement already satisfied: MarkupSafe>=2.0 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from Jinja2>=3.1.2->flask->-r requirements.txt (line 1)) (2.1.3)
 + python3 app.py
-Finished: SUCCESS ```
+Finished: SUCCESS
 
 4. Triggers:
 
