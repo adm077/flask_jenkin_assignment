@@ -1,6 +1,6 @@
 # flask_jenkin_assignment
 
-#1. Jenkins CI CD pipeline for flask application
+##1. Jenkins CI CD pipeline for flask application
 
 Objective:
 Set up a Jenkins pipeline that automates the testing and deployment of a simple Python web application.
@@ -14,6 +14,14 @@ Requirements:
    - Install Jenkins on a virtual machine or use a cloud-based Jenkins service.
 
    - Configure Jenkins with Python and any necessary libraries.
+
+I have launched an Ec2 instance on AWS and configured it with Java, Jenkins, pip and other dependencies.
+![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/8dc7c58d-c935-47b3-98ad-ce0242c41daf)
+
+I have allowed Inbound rules
+![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/b60a9f2d-947b-4f9a-88bf-f5a7c3a89f26)
+
+![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/938192d7-d6bc-4639-9d9d-d25c30326768)
 
 
 2. Source Code:
