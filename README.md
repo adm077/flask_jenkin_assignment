@@ -30,6 +30,8 @@ I have allowed Inbound rules
 
   - Clone the forked repository into your Jenkins server.
 
+I have created a Job under Jenkins
+![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/9f2a01a3-4691-4347-ad94-c67bfff9f4d6)
 
 3. Jenkins Pipeline:
 
@@ -43,6 +45,43 @@ I have allowed Inbound rules
 
      - Deploy: If tests pass, deploy the application to a staging environment.
 
+``` Console Output
+Started by user Israrul Haque
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/flask_assignment
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/flask_assignment/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adm077/flask_jenkin_assignment # timeout=10
+Fetching upstream changes from https://github.com/adm077/flask_jenkin_assignment
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/adm077/flask_jenkin_assignment +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision c74aef852b4f31a4aadda7daf1636ef799497e0a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c74aef852b4f31a4aadda7daf1636ef799497e0a # timeout=10
+Commit message: "Update app.py"
+ > git rev-list --no-walk d9fb0125a59905b1c4d57fd7217e9ec8c7dbc6f8 # timeout=10
+[flask_assignment] $ /bin/sh -xe /tmp/jenkins5713475323859548670.sh
++ echo /var/lib/jenkins/workspace/flask_assignment
+/var/lib/jenkins/workspace/flask_assignment
++ pwd
+/var/lib/jenkins/workspace/flask_assignment
++ whoami
+jenkins
++ pip install -r requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: flask in /var/lib/jenkins/.local/lib/python3.10/site-packages (from -r requirements.txt (line 1)) (3.0.0)
+Requirement already satisfied: blinker>=1.6.2 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from flask->-r requirements.txt (line 1)) (1.7.0)
+Requirement already satisfied: click>=8.1.3 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from flask->-r requirements.txt (line 1)) (8.1.7)
+Requirement already satisfied: Jinja2>=3.1.2 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from flask->-r requirements.txt (line 1)) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.1.2 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from flask->-r requirements.txt (line 1)) (2.1.2)
+Requirement already satisfied: Werkzeug>=3.0.0 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from flask->-r requirements.txt (line 1)) (3.0.1)
+Requirement already satisfied: MarkupSafe>=2.0 in /var/lib/jenkins/.local/lib/python3.10/site-packages (from Jinja2>=3.1.2->flask->-r requirements.txt (line 1)) (2.1.3)
++ python3 app.py
+Finished: SUCCESS ```
 
 4. Triggers:
 
