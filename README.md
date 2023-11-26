@@ -87,6 +87,9 @@ Finished: SUCCESS
 
    - Configure the pipeline to trigger a new build whenever changes are pushed to the main branch of the repository.
 
+Set the Build Triggers For triggering the new build whenever a new code is pushed in github
+![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/ed7b7ae4-f9f3-49d5-b1bf-c8c6e9ecd01d)
+
 
 5. Notifications:
 
