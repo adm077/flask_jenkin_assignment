@@ -123,7 +123,7 @@ The web app is up & running.
 
 
 
-#2. GitHub Actions CI/CD Pipeline Flask App
+##2. GitHub Actions CI/CD Pipeline Flask App
 
 Objective:
 
