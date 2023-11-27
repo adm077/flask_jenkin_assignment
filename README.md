@@ -15,7 +15,7 @@ Requirements:
 
    - Configure Jenkins with Python and any necessary libraries.
 
-I have launched an Ec2 instance on AWS and configured it with Java, Jenkins, pip and other dependencies.
+I have launched an Ec2 instance on AWS and configured it with Java, Jenkins, pip, and other dependencies.
 ![image](https://github.com/adm077/flask_jenkin_assignment/assets/139608052/8dc7c58d-c935-47b3-98ad-ce0242c41daf)
 
 I have allowed Inbound rules
